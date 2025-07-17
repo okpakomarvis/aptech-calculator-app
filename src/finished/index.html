@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="output.css" rel="stylesheet" />
+    <script src="app.js" defer></script>
+</head>
+<body class="bg-slate-100 flex flex-col items-center justify-center h-screen" id="body">
+
+    <div  class="flex flex-col gap-4 items-center justify-center bg-slate-700 p-4 rounded-lg">
+        <div class="w-[100%]">
+            <input type="text" name="" id=""  readonly value="0" class="text-right text-[#ccc] h-14 pr-2  bg-slate-900 outline-none border border-green-900 rounded-md w-[100%]" />
+        </div>
+        <div class="grid grid-cols-4 gap-4" >
+            <button class="bg-slate-400 "  onclick="numberInput(this,7)">7</button>
+            <button class="bg-slate-400" onclick="numberInput(this,8)">8</button>
+            <button class="bg-slate-400" onclick="numberInput(this,9)">9</button>
+            <button class="bg-yellow-500 text-[#fff]" onclick="operator(this,'/')">/</button>
+            <button class="bg-slate-400" onclick="numberInput(this, 4)">4</button>
+            <button class="bg-slate-400" onclick="numberInput(this,5)">5</button>
+            <button class="bg-slate-400" onclick="numberInput(this,6)">6</button>
+            <button class="bg-yellow-500 text-[#fff]" onclick="operator(this,'*')">*</button>
+            <button class="bg-slate-400" onclick="numberInput(this,1)">1</button>
+            <button class="bg-slate-400" onclick="numberInput(this,2)">2</button>
+            <button class="bg-slate-400" onclick="numberInput(this,3)">3</button>
+            <button class="bg-yellow-500 text-[#fff]" onclick="operator(this,'-')">-</button>
+            <button class="bg-slate-400" onclick="numberInput(this,0)">0</button>
+            <button class="bg-slate-400" onclick="operator(this,'.')">.</button>
+            <button class="bg-red-500 text-[#fff]" onclick="operator(this,'c')">C</button>
+            <button class="bg-yellow-500 text-[#fff]" onclick="operator(this,'+')">+</button>
+            <button
+                class="bg-green-500 col-span-4 text-white"
+                onclick="operator(this,'=')">=</button>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
