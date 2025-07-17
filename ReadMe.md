@@ -18,7 +18,7 @@ The calculator app includes a scaling animation effect when buttons are pressed.
 ## Installation
 1. Clone the repository:
    ```
-   git clone (https://github.com/okpakomarvis/aptech-calculator-app.git)
+   git [clone https://github.com/okpakomarvis/aptech-calculator-app.git]
    ```
 2. Navigate to the project directory:
    ```
